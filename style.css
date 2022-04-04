@@ -230,9 +230,11 @@ font-size: 20px;
 
 }
 
-.tipo{
+.tipos{
    
 color: #101828;
+align-self: stretch;
+margin: 50px;
 
 
 
