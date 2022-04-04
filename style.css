@@ -1,0 +1,397 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=IBM+Plex+Sans+Arabic:wght@300&family=Inter:wght@500&family=Nunito&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Ramaraja&family=Righteous&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&family=Sarala&display=swap');
+
+
+.cabecalho-menu {
+    display:flex;
+    
+   
+    justify-content:space-around;
+    
+}
+.menu {
+    display: flex;
+  
+  
+    gap:32px;
+    padding:10px;
+    margin:10px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color:#667085;
+   
+   
+   }
+
+   .botoes {
+    display:flex;
+   flex-direction: row;
+   align-items: baseline;
+   gap:32px;
+
+  
+
+}
+
+.botoes-item{
+
+ font-family: 'Inter', sans-serif;
+ font-weight: 500;
+ font-size:16px;
+ color:#667085;
+}
+
+.botoes button {
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+box-sizing: border-box;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+margin:10px;
+padding:10px;
+border-radius: 10px;
+color:#FFFFFF;
+}
+
+.imagem {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    height: 10px;
+    gap:2px;
+  
+  
+
+}
+
+
+.imagem img{
+ 
+   height: 30px;
+   margin: 12px;
+}
+
+
+.imagem p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:18px;
+    color:#3A404E;
+
+}
+
+
+
+
+.cabecalho-principal{
+    
+    text-align: center;
+    padding:90px;
+    margin:30px;
+   
+    
+}
+
+
+
+
+.sobre{
+    color:#8E2424;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:16px;
+ }
+
+
+
+
+.conteudo h1 {
+    color:#101828;
+    font-family: 'Inter', sans-serif;
+    font-size:48px;
+    font-weight: 400;
+
+
+}
+
+
+.sobre-conteudo{
+    font-family: 'Inter', sans-serif;
+    color:#667085;
+    font-weight: 400;
+    font-size:20px;
+
+}
+
+
+.metricas{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+   
+}
+
+
+.metricas h1 {
+    font-family: 'Inter', sans-serif;
+    color:#8E2424;
+    font-weight: 600;
+    font-size:60px;
+}
+
+
+
+.titulo{
+    font-size:18px;
+    font-family: 'Inter', sans-serif;
+    color:#101828;
+    font-weight: 500;
+
+}
+
+
+.desc {
+   color: #667085;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   font-size:16px;
+}
+
+.vagas{
+    padding:68px;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+text-align: center;
+font-family: 'Inter', sans-serif;
+
+}
+
+
+.titulo-vagas{
+ color:
+ #8E2424;
+ 
+ border-radius: 15px;
+ box-sizing: border-box;
+ font-weight: 500;
+ font-size:14px;
+ font-family: 'Inter', sans-serif;
+ padding: 5px;
+}
+
+.subtitulo{
+ color:#101828;
+ font-size:36px;
+ font-family: 'Inter', sans-serif;
+ font-weight: 600;
+}
+
+
+.vagas-somos {
+    color: #667085;
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.vagas img {
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+.vagas-anunciadas{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 20px;
+   margin-top:10px;
+   
+   font-family: 'Inter';
+ 
+
+}
+
+.tipos-vagas{
+    color:#101828;
+   
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+
+
+}
+
+.tipo{
+   
+color: #101828;
+
+
+
+
+}
+
+.descriçao-1{
+
+    border: 1px solid #EAECF0;
+box-sizing: border-box;
+border-radius: 16px;
+background: #FFFFFF;
+align-self: stretch;
+margin: 50px;
+padding: 40px;
+width: 768px;
+
+
+}
+
+
+.descriçao-titulo{
+    color:#101828;
+    font-weight: 500;
+font-size: 18px;
+}
+
+.time{
+    color: #667085;
+    font-weight: 500;
+font-size: 16px;
+
+}
+
+.content{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: rgba(196, 25, 25, 0.03);
+   border-radius: 16px;
+   font-family: 'Inter';
+   position: static;
+   padding: 90px;
+  margin: 80px;
+  flex: 1;
+   top: 0px;
+
+
+}
+
+.content-titulo{
+    color:
+    #8E2424;
+    font-weight: 600;
+font-size: 14px;
+margin:10px;
+padding: 40px;
+
+}
+
+
+.content-sobre{
+    font-weight: 500;
+    font-size: 36px;
+    color:#101828;
+    text-align: center;
+}
+
+
+
+.content img{
+    width: 56px;
+height: 56px;
+
+}
+
+
+.content-avatar {
+    color:#101828;
+   
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
+
+.content-sobre-avatar{
+ color: #667085;
+}
+
+
+
+.rotape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9FAFB;
+    font-family: 'Inter';
+    padding:90px;
+  
+
+}
+
+.rotape h1{
+    color:#101828;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.rotape-desc{
+color:#667085;
+font-weight: 400;
+font-size: 20px;
+
+}
+
+
+.email{
+    display: flex;
+
+    flex-direction: row;
+    gap:10px;
+}
+
+
+.input {
+   
+align-items: center;
+padding: 12px 14px 12px 16px;
+    background: #FFFFFF;
+border: 1px solid #D0D5DD;
+box-sizing: border-box;
+width: 360px;
+height: 48px;
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+
+
+
+button {
+    background: #8E2424;
+    background-size:cover;
+
+border: 1px solid #8E2424;
+box-sizing: border-box;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+color:#FFFFFF;
+padding:15px;
+}
+
+.direitos{
+    margin-top:10px;
+    padding:30px;
+    display: flex;
+    flex-direction: row;
+    color: #98A2B3;
+    font-weight: 400;
+font-size: 16px;
+
+}
