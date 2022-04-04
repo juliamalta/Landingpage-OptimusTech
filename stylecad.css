@@ -1,0 +1,64 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=IBM+Plex+Sans+Arabic:wght@300&family=Inter:wght@500&family=Nunito&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Ramaraja&family=Righteous&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&family=Sarala&display=swap');
+
+.login {
+ display: flex;
+ 
+background: rgba(230, 238, 248, 0.2);
+margin-top: 160px;
+font-family: 'Inter', sans-serif;
+  border-radius: 30px;
+  box-shadow: 50px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+ 
+
+
+}
+
+.login-titulo h1{
+    color:#8E2424;
+   font-size: 50px;
+   font-weight: 400;
+  
+}
+
+
+
+.login-text {
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+ 
+}
+
+
+
+
+.login input {
+   
+    padding: 10px;
+    margin: 10px;
+   border-radius:5px;
+}
+
+.login-text button {
+    background: #8E2424;
+    background-size:cover;
+
+border: 1px solid #8E2424;
+box-sizing: border-box;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+color:#FFFFFF;
+padding:15px;
+margin:20px;
+}
